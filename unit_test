@@ -1,0 +1,21 @@
+import unittest
+
+class TestListComparator(unittest.TestCase):
+  def test_compare_lists(self):
+    lc=ListComparator([1, 2, 3], [4, 5, 6])
+    self.assertEqual(lc.compare_lists(), "Average of List1 is less than Average of List2")
+
+lc=ListComparator([1, 2, 3], [4, 5, 6])
+    self.assertEqual(lc.compare_lists(), "Average of List1 is less than Average of List2")
+
+lc=ListComparator([1, 2, 3], [1, 2, 3])
+    self.assertEqual(lc.compare_lists(), "Average of List1 is equal to Average of List2")
+
+lc=ListComparator([], [])
+    self.assertEqual(lc.compare_lists(), "Average of List1 is equal to Average of List2")
+
+lc=ListComparator([], [4, 5, 6])
+    self.assertEqual(lc.compare_lists(), "Average of List1 is equal to Average of List2")
+
+if __name__ == '_main_':
+  unittest.main()
