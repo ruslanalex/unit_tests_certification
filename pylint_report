@@ -1,1 +1,7 @@
-M
+Module list comparator
+
+list_comparator.py:1.0: C0114: Missing module docstring (missing-module_docstring)
+list_comparator.py:3.0: C0116: Missing function or method docstring (missing-function-docstring)
+list_comparator.py:7.4: C0103: Constant name "list1" doesn't conform to UPPER_CASE naming style (invalid-name)
+list_comparator.py:8.4: C0103: Constant name "list2" doesn't conform to UPPER_CASE naming style (invalid-name)
+list_comparator.py:10.4: C0114: Too few public methods (0/2) (too-few-public-methods)
